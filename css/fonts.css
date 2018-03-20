@@ -102,26 +102,5 @@
     font-weight: normal;
 }
 
-@font-face {
-    font-family: "genjyuugothic-bold";
-    src: url("../fonts/GenJyuuGothic-Bold.ttf");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "genjyuugothic-light";
-    src: url("../fonts/GenJyuuGothic-Light.ttf");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "genjyuugothic";
-    src: url("../fonts/GenJyuuGothic-Normal.ttf");
-    font-style: normal;
-    font-weight: normal;
-}
-
 
 /*# sourceMappingURL=fonts.css.map */
