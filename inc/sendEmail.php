@@ -1,8 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
-
+$siteOwnersEmail = 'hi@savy.tw';
 
 if($_POST) {
 
@@ -26,7 +25,6 @@ if($_POST) {
     // Subject
     if ($subject == '') { $subject = "Contact Form Submission"; }
 
-
     // Set Message
     $message .= "Email from: " . $name . "<br />";
     $message .= "Email address: " . $email . "<br />";
@@ -42,7 +40,6 @@ if($_POST) {
     $headers .= "Reply-To: ". $email . "\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
 
     if (!$error) {
 
